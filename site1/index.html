@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Montserrat:wght@300;400&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+        integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cube Website</title>
+</head>
+
+<body class="area">
+
+    <div id="cursor"></div>
+
+    <div class='stars'></div>
+    <div class='stars2'></div>
+    <div class='stars3'></div>
+
+
+    <!-- PAGES -->
+
+    <div id="aboutPage">
+        <a href="#"><i class="fas fa-times" id="aboutpageClose"></i></a>
+        <div class="aboutContainer">
+            <div class="aboutTitle">
+                <h1>About</h1>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <p><span class="theme-color">Full Name: </span>Christos Uster Biswas</p>
+                    <p><span class="theme-color">Age: </span>21</p>
+                    <p><span class="theme-color">Residence: </span>Dhaka, Bangladesh</p>
+                    <p><span class="theme-color">Language: </span>English, Bengali</p>
+                    <p><span class="theme-color">Freelance: </span>Available</p>
+                </div>
+                <div class="column">
+                    <p><mark>CHRISTOS USTER BISWAS</mark> is <span class="theme-color">front end web
+                            developer</span>
+                        from Bangladesh
+                        who loves simplicity and minimalism. With over <span class="theme-color">5 years</span> of
+                        experience, anything you imagine, he can
+                        turn into reality with <span class="theme-color">HTML, CSS and Javascript</span>. When
+                        Christos
+                        is not busy turning your dreams into
+                        reality, he's most probably making <span class="theme-color">composite artworks</span> on
+                        Photoshop or watching cat videos.
+                        <br> <span class="light">P.S. Christos likes to talk about himself in third person.</span>
+                        <br> <span class="light">P.S. He wrote this.</p></span>
+                </div>
+
+            </div>
+
+            <div class="line"></div>
+            <div class="aboutTitle">
+                <p>Expertise</p>
+            </div>
+            <div class="row services">
+                <div class="column">
+                    <div class="serviceCard">
+                        <i class="fas fa-code"></i>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="serviceCard">
+                        <i class="fas fa-pen-fancy"></i>
+                        <p>Composite Art</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row services">
+                <div class="column">
+                    <div class="serviceCard">
+                        <i class="fas fa-search"></i>
+                        <p>SEO</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="serviceCard">
+                        <i class="fas fa-ad"></i>
+                        <p>Social Media Marketing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="aboutTitle">
+                <p>Skills</p>
+            </div>
+            <div class="content">
+                <div class="col">
+                    <ul id="skill">
+                        <li><span class="expand html5"></span><em>HTML 5</em></li>
+                        <li><span class="expand css3"></span><em>CSS 3</em></li>
+                        <li><span class="expand javascript"></span><em>Javascript</em></li>
+                        <li><span class="expand photoshop"></span><em>Photoshop</em></li>
+                        <li><span class="expand c"></span><em>C</em></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="portfolioPage">
+        <a href="#"><i class="fas fa-times" id="portfoliopageClose"></i></a>
+        <div class="portfolioContainer">
+            <div class="portfolioTitle">
+                <h1>Portfolio</h1>
+            </div>
+
+
+            <div class="button-group filter-button-group">
+                <a href="#"><button data-filter="*" class="is-checked">All</button></a>
+                <a href="#"><button data-filter=".website">Websites</button></a>
+                <a href="#"><button data-filter=".art">Art Works</button></a>
+            </div>
+
+            <div class="grid">
+                <div class="element-item website">
+                    <a href="1.jpg" data-fancybox data-caption="Caption for single image">
+                        <img src="1.jpg" alt="" />
+                    </a>
+                </div>
+
+                <div class="element-item art">
+                    <a href="1.jpg" data-fancybox data-caption="Caption for single image">
+                        <img src="2.jpg" alt="" />
+                    </a>
+                </div>
+
+                <div class="element-item website">
+                    <a href="1.jpg" data-fancybox data-caption="Caption for single image">
+                        <img src="3.jpg" alt="" />
+                    </a>
+                </div>
+
+                <div class="element-item art">
+                    <a href="1.jpg" data-fancybox data-caption="Caption for single image">
+                        <img src="4.jpg" alt="" />
+                    </a>
+                </div>
+
+
+                <div class="element-item website">
+                    <a href="1.jpg" data-fancybox data-caption="Caption for single image">
+                        <img src="5.jpg" alt="" />
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- CUBE -->
+
+
+    <div id="container">
+
+        <a href="#"><i class="fas fa-angle-left controls" id="turn-left"></i></a>
+        <a href="#"><i class="fas fa-angle-right controls" id="turn-right"></i></a>
+
+        <div id="box-container">
+            <div id="box">
+
+                <div id="front" class="card-color">
+                    <i class="fas fa-home theme-color icon"></i>
+                    <div class="boxContent">
+                        <h1>CHRISTOS USTER</h1>
+                        <p><span class="type-effect theme-color" id="element"></span></p>
+                        <div class="frontSocial">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-git"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="back" class="card-color">
+                    <i class="fas fa-briefcase theme-color icon"></i>
+                    <div class="boxContent">
+                        <h1 class="card-head"><span class="theme-color">HIS</span><br>PORTFOLIO</h1>
+                        <div class="portfolioInfo">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div id="left" class="card-color">
+                    <i class="far fa-address-card theme-color icon"></i>
+                    <div class="boxContent">
+                        <h1 class="card-head">CONTACT<br><span class="theme-color">HIM</span></h1>
+                        <div class="contactInfo">
+                            <div class="contactRow">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Tejgaon, Dhaka, Bangladesh, 1215</p>
+                            </div>
+                            
+                                <div class="contactRow">
+                                    <i class="far fa-envelope"></i>
+                                    <p>christos.uster@gmail.com</p>
+                                </div>
+                            
+                            <div class="contactRow">
+                                <i class="fas fa-mobile-alt"></i>
+                                <p>+880-1763527098</p>
+                            </div>
+
+                            <div class="contactSocial">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-git"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="right" class="card-color">
+                    <i class="fas fa-user theme-color icon"></i>
+                    <div class="boxContent">
+                        <h1 class="card-head">ABOUT<br><span class="theme-color">HIM</span></h1>
+
+                        <div class="about-card-info">
+                            <h3>Who is <span class="theme-color">Christos</span>?</h3>
+                            <h3>What is <span class="theme-color">Christos</span>?</h3>
+                            <h3>When is <span class="theme-color">Christos</span>?</h3>
+                            <h3>Where is <span class="theme-color">Christos</span>?</h3>
+
+
+                            <div class="wrapper">
+                                <a id="aboutButton" href="#"><span>Find Out</span></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="top" class="card-color">TOP<br></div>
+                <div id="bottom" class="card-color">BOTTOM<br></div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
